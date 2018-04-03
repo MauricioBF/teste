@@ -1,0 +1,170 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  font-family: sans-serif;  
+}
+.container {
+  width: 100%;
+  background-color: white;
+}
+.dropdown {
+  position: relative;
+}
+a#menu svg {
+  width: 40px;
+  fill: white;
+}
+nav, main {
+  padding: 1em;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  height: 12%;
+  background-color: #000;
+}
+#drawer {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+nav {
+  width: 185px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  -webkit-transform: translate(100%, 0);
+  transform: translate(100%, 0);
+  transition: transform 0.4s ease;
+}
+nav.open {
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  background-color: #D6D6D6;
+  color: white;
+  text-decoration: none;
+}
+a {
+  display: inline-block;
+  color: #58A7EC;
+} 
+#drawer a {
+  padding: 5px 10px;
+  margin-top: 4%;
+  font-family: sans-serif;
+}
+#list {
+  margin-top: 40%;
+}
+.active {
+   background-color: #666;
+   color: white;
+}
+#menu {
+  float: right;
+  background-color: #000;
+  border-bottom: 0;
+}
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 2em;
+  
+}
+.estu {
+  margin-top: 0px; 
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  transform: translate(0%, -90%);
+  width: 70%;
+}
+.line1 {
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.img-left {
+  float: left;
+  width: 35%;
+  height: 35%;
+  position: relative;
+  left: 10%;
+  padding: 2%;
+}
+.img-right {
+  float: right;
+  width: 35%;
+  height: 35%;
+  position: relative;
+  right: 10%;
+  padding: 2%;
+}
+.img {
+  width: 40%;
+  height: 40%;
+  position: relative;
+  padding: 2%;
+}
+.img2 {
+  width: 20%;
+  height: 20%;
+  position: relative;
+  padding: 2%;
+}
+.img3 {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  padding: 2%;
+}
+.but-left {
+  float: left;
+  width: 50%;
+}
+.but-right {
+  float: right;
+  width: 50%;
+}
+.img-mid {
+  
+  width: 130px;
+  height: 130px;
+  padding: 2%;
+  transform: translate(20%, 0%);
+}
+#grafico {
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translate(0%, -50%);
+  padding-top: 97%;
+  padding-left: 10%;
+}
+.nota {
+  width: 50%;
+  height: 30%;
+}
+.table {
+  padding: 20px;
+}
+.dis1 {
+  width: 100%;
+  border-style: none;
+  border-collapse: collapse;
+	border-width: 0.25px;
+  border-color: grey;
+  background-color: lightgray;
+}
+#texto {
+  text-align: center;
+}
+#paramet {
+  padding-inline-end: 2px;
+}
